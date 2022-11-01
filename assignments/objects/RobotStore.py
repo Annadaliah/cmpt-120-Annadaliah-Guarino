@@ -21,7 +21,7 @@ def print_stock():
 
 
 def main():
-    cash = float(input("How much money do you have $"))
+    cash = float(input("How much money do you have? $"))
     while cash > 0:
         print_stock()
         vals = input(
